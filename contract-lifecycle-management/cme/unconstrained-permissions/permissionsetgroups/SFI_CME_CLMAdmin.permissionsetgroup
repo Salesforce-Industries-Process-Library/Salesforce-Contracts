@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<PermissionSetGroup xmlns="http://soap.sforce.com/2006/04/metadata">
+     <fullName>SFI_CME_CLMAdmin</fullName>
+     <description>Groups permission sets based on admin user job functions such as monitoring, maintaining, configuring, and managing contract lifecycles.</description>
+     <label>CME CLM Administrator</label>
+     <permissionSets>DocGenInd_Runtime_All</permissionSets>
+     <permissionSets>DocGenInd_Design_All</permissionSets>
+     <permissionSets>CLMInd_DocuSign_Runtime_All</permissionSets>
+     <permissionSets>CLMInd_FA_Runtime_All</permissionSets>
+     <permissionSets>CLMInd_Runtime_All</permissionSets>
+     <permissionSets>CLMInd_Admin_All</permissionSets>
+</PermissionSetGroup>

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<PermissionSetGroup xmlns="http://soap.sforce.com/2006/04/metadata">
+     <fullName>SFI_CME_CLMUser</fullName>
+     <description>Groups permission sets based on user job functions such as generating contract documents and managing contract lifecycles.</description>
+     <label>CME CLM User</label>
+     <permissionSets>DocGenInd_Runtime_All</permissionSets>
+     <permissionSets>DocGenInd_Docusign_Runtime_All</permissionSets>
+     <permissionSets>CLMInd_DocuSign_Runtime_All</permissionSets>
+     <permissionSets>CLMInd_FA_Runtime_All</permissionSets>
+     <permissionSets>CLMInd_Runtime_All</permissionSets>
+</PermissionSetGroup> 

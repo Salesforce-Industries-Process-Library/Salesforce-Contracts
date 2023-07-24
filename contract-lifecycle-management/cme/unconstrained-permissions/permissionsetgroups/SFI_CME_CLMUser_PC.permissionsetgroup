@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<PermissionSetGroup xmlns="http://soap.sforce.com/2006/04/metadata">
+     <fullName>SFI_CME_CLMUser_PC</fullName>
+     <description>Groups permission sets based on Digital Experience user job functions such as generating contract documents and managing contract lifecycles in Digital Experience Partner sites.</description>
+     <label>CME CLM Digital Experience Partner User</label>
+     <permissionSets>DocGenInd_Runtime_All</permissionSets>
+     <permissionSets>CLMInd_Runtime_All</permissionSets>
+     <permissionSets>CLMInd_DocuSign_Runtime_All</permissionSets>
+</PermissionSetGroup> 
